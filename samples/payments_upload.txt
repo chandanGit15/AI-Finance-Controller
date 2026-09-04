@@ -1,0 +1,11 @@
+Payment ID: PAY-7001
+Customer: Karnataka Supplies
+Payment Date: 12/08/2026
+Amount: Rs. 48,500.00
+Reference: PAYMENT FOR INV-7001
+
+Payment ID: PAY-7002
+Customer: Shakti Enterprises
+Payment Date: 13/08/2026
+Amount: ₹9,600.50
+Reference: PAYMENT FOR INV-7002

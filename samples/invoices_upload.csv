@@ -1,0 +1,4 @@
+invoice_id,customer,invoice_date,due_date,amount,currency,account_id
+INV-7001,Karnataka Supplies,2026-08-10,2026-09-09,48500,INR,ACC-001
+INV-7002,Shakti Enterprises,2026-08-11,2026-09-10,9600.5,INR,ACC-002
+INV-7003,Bharat Logistics Pvt Ltd,2026-08-14,2026-09-13,275500,INR,ACC-003

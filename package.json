@@ -4,8 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev": "npm run build && concurrently \"npm run dev:server\" \"npm run watch:client\"",
+    "dev:hmr": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "dev:client": "vite",
+    "watch:client": "vite build --watch",
     "dev:server": "node --watch backend/index.js",
     "build": "vite build",
     "start": "node backend/index.js",
